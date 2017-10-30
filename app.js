@@ -6,125 +6,6 @@ var infoWindow;
 // Markers
 var initialMarkers = [
     {
-        color : "purple",
-        lat: 48.846587,
-        long: 2.347497,
-        location : 'Place Sainte-Geneviève, 75005 Paris',
-        image : 'images/20171030_101322.jpg'
-    },
-    {
-        color : "brown",
-        lat: 48.846005,
-        long: 2.342941,
-        location : '163 Rue Saint-Jacques, Paris, Île-de-France',
-        image : 'images/20171030_101746.jpg'
-    },
-    {
-        color : "brown",
-        lat: 48.845355,
-        long: 2.342561,
-        location : '212 Rue Saint-Jacques, Paris, Île-de-France',
-        image : 'images/20171030_102035.jpg'
-    },
-    {
-        color : "blue",
-        lat: 48.844474,
-        long: 2.341806,
-        location : '34 Rue Gay-Lussac Paris, Île-de-France',
-        image : 'images/20171030_102423.jpg'
-    },
-    {
-        color : "brown",
-        lat: 48.844927,
-        long: 2.341717,
-        location : '26 Rue Gay-Lussac Paris, Île-de-France',
-        image : 'images/20171030_102531.jpg'
-    },
-    {
-        color : "blue",
-        lat: 48.840221,
-        long: 2.340582,
-        location : '285 Rue Saint-Jacques Paris, Île-de-France',
-        image : 'images/20171030_103424.jpg'
-    },
-    {
-        color : "grey",
-        lat: 448.840487,
-        long: 2.340745,
-        location : '279 Rue Saint-Jacques, Paris, Île-de-France',
-        image : 'images/20171030_145651.jpg'
-    },
-    {
-        color : "grey",
-        lat: 48.840547,
-        long: 2.340825,
-        location : '279 Rue Saint-Jacques, Paris, Île-de-France',
-        image : 'images/20171030_145902.jpg'
-    },
-    {
-        color : "teal, red",
-        lat: 48.843920,
-        long: 2.341799,
-        location : '246 Rue Saint-Jacques Paris, Île-de-France',
-        image : 'images/20171030_150050.jpg'
-    },
-    {
-        color : "green",
-        lat: 48.806915,
-        long: 2.473595,
-        location : '10 Rue des Remises 94100 Saint-Maur-des-Fossés',
-        image : 'images/20171030_161318.jpg'
-    },
-    {
-        color : "white",
-        lat: 48.807164,
-        long: 2.473716,
-        location : '8 Rue des Remises 94100 Saint-Maur-des-Fossés',
-        image : 'images/20171030_161340.jpg'
-    },
-    {
-        color : "red",
-        lat: 48.807185,
-        long: 2.473762,
-        location : '3 Rue des Remises 94100 Saint-Maur-des-Fossés',
-        image : 'images/20171030_165407.jpg'
-    },
-    {
-        color : "brown",
-        lat: 48.855486,
-        long: 2.358397,
-        location : '68 Rue François Miron, Paris',
-        image : 'images/20171030_172724.jpg'
-    },
-    {
-        color : "brown",
-        lat: 48.855525,
-        long: 2.358149,
-        location : '66 Rue François Miron, Paris',
-        image : 'images/20171030_172749.jpg'
-    },
-    {
-        color : "blue",
-        lat: 48.855100,
-        long: 2.356778,
-        location : "27 Rue Geoffroy l'Asnier, Paris",
-        image : 'images/20171030_172927.jpg'
-    },
-    {
-        color : "black",
-        lat: 48.8058,
-        long: 2.4732,
-        location : "23 Rue Geoffroy l'Asnier, Paris",
-        image : 'images/20171030_172958.jpg'
-    },
-    {
-        color : "green",
-        lat: 48.8549,
-        long: 2.3564,
-        location : "27 Rue Geoffroy l'Asnier, Paris",
-        image : 'images/20171030_173018.jpg'
-    },
-  {
         color: "black",
         lat: 48.849912,
         long: 2.354938,
@@ -200,6 +81,125 @@ var initialMarkers = [
         long: 2.242080,
         location: "116 Passage Henri Regnault. at the back of the building.",
         image: "images/door000011.jpg"
+    },
+    {
+        color : "purple",
+        lat: 48.846587,
+        long: 2.347497,
+        location : 'Place Sainte-Geneviève, 75005 Paris',
+        image : 'images/door000012.jpg'
+    },
+    {
+        color : "brown",
+        lat: 48.846005,
+        long: 2.342941,
+        location : '163 Rue Saint-Jacques, Paris, Île-de-France',
+        image : 'images/door000013.jpg'
+    },
+    {
+        color : "brown",
+        lat: 48.845355,
+        long: 2.342561,
+        location : '212 Rue Saint-Jacques, Paris, Île-de-France',
+        image : 'images/door000014.jpg'
+    },
+    {
+        color : "blue",
+        lat: 48.844474,
+        long: 2.341806,
+        location : '34 Rue Gay-Lussac Paris, Île-de-France',
+        image : 'images/door000015.jpg'
+    },
+    {
+        color : "brown",
+        lat: 48.844927,
+        long: 2.341717,
+        location : '26 Rue Gay-Lussac Paris, Île-de-France',
+        image : 'images/door000016.jpg'
+    },
+    {
+        color : "blue",
+        lat: 48.840221,
+        long: 2.340582,
+        location : '285 Rue Saint-Jacques Paris, Île-de-France',
+        image : 'images/door000017jpg'
+    },
+    {
+        color : "grey",
+        lat: 448.840487,
+        long: 2.340745,
+        location : '279 Rue Saint-Jacques, Paris, Île-de-France',
+        image : 'images/door000018.jpg'
+    },
+    {
+        color : "grey",
+        lat: 48.840547,
+        long: 2.340825,
+        location : '279 Rue Saint-Jacques, Paris, Île-de-France',
+        image : 'images/door000019jpg'
+    },
+    {
+        color : "teal, red",
+        lat: 48.843920,
+        long: 2.341799,
+        location : '246 Rue Saint-Jacques Paris, Île-de-France',
+        image : 'images/door000020.jpg'
+    },
+    {
+        color : "green",
+        lat: 48.806915,
+        long: 2.473595,
+        location : '10 Rue des Remises 94100 Saint-Maur-des-Fossés',
+        image : 'images/door000021.jpg'
+    },
+    {
+        color : "white",
+        lat: 48.807164,
+        long: 2.473716,
+        location : '8 Rue des Remises 94100 Saint-Maur-des-Fossés',
+        image : 'images/door000022.jpg'
+    },
+    {
+        color : "red",
+        lat: 48.807185,
+        long: 2.473762,
+        location : '3 Rue des Remises 94100 Saint-Maur-des-Fossés',
+        image : 'images/door000023.jpg'
+    },
+    {
+        color : "brown",
+        lat: 48.855486,
+        long: 2.358397,
+        location : '68 Rue François Miron, Paris',
+        image : 'images/door000024.jpg'
+    },
+    {
+        color : "brown",
+        lat: 48.855525,
+        long: 2.358149,
+        location : '66 Rue François Miron, Paris',
+        image : 'images/door000025.jpg'
+    },
+    {
+        color : "blue",
+        lat: 48.855100,
+        long: 2.356778,
+        location : "27 Rue Geoffroy l'Asnier, Paris",
+        image : 'images/door000026.jpg'
+    },
+    {
+        color : "black",
+        lat: 48.8058,
+        long: 2.4732,
+        location : "23 Rue Geoffroy l'Asnier, Paris",
+        image : 'images/door000027.jpg'
+    },
+    {
+        color : "green",
+        lat: 48.8549,
+        long: 2.3564,
+        location : "27 Rue Geoffroy l'Asnier, Paris",
+        image : 'images/door000028.jpg'
     }
 ];
 
