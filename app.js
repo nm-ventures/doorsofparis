@@ -323,7 +323,7 @@ var Marker = function(markerItem) {
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 14,
+        zoom: 13,
         center: {lat: 48.852961, lng: 2.349913}
     });
 
