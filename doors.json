@@ -1,0 +1,79 @@
+[
+    {
+        "color" : "black",
+        "lat": 48.849912,
+        "long": 2.354938,
+        "location" : "17 Quai de la Tournelle",
+        "image" : "images/door000001.jpg"
+    },
+    {
+        "color" : "red",
+        "lat": 48.846681,
+        "long": 2.347630,
+        "location" : "Place Sainte-Geneviève, the door left of the main one",
+        "image" : "images/door000002.jpg"
+    },
+    {
+        "color" : "gray",
+        "lat": 48.846752,
+        "long": 2.345883,
+        "location" : "Place du Panthéon, probably not a permanent installation",
+        "image" : "images/door000003.jpg"
+    },
+    {
+        "color" : "clear",
+        "lat": 48.846032,
+        "long": 2.342861,
+        "location" : "198 Rue Saint-Jacques",
+        "image" : "images/door000004.jpg"
+    },
+    {
+        "color" : "red",
+        "lat": 48.845411,
+        "long": 2.342531,
+        "location" : "210 Rue Saint-Jacques. it's tiny",
+        "image" : "images/door000005.jpg"
+    },
+    {
+        "color" : "brown",
+        "lat": 48.844436,
+        "long": 2.341862,
+        "location" : "34 Rue Gay-Lussac. a door with a balcony!",
+        "image" : "images/door000006.jpg"
+    },
+    {
+        "color" : "red",
+        "lat": 48.844525,
+        "long": 2.341806,
+        "location" : "32 Rue Gay-Lussac",
+        "image" : "images/door000007.jpg"
+    },
+    {
+        "color" : "brown",
+        "lat": 48.8439,
+        "long": 2.3419,
+        "location" : "250 Bis Rue Saint-Jacques. non-permanent exhibition",
+        "image" : "images/door000008.jpg"
+    },
+    {
+        "color" : "blue",
+        "lat": 48.839957,
+        "long": 2.340414,
+        "location" : "293 Rue Saint-Jacques",
+        "image" : "images/door000009.jpg"
+    },
+    {
+        "color" : "clear",
+        "lat": 48.839493,
+        "long": 2.340243,
+        "location" : "299 Rue Saint-Jacques. hidden in the back, a play of mirrors and glass.",
+        "image" : "images/door000010.jpg"
+    },
+    {
+        "color" : "yellow",
+        "lat": 48.893638,
+        "long": 2.242080,
+        "location" : "116 Passage Henri Regnault. at the back of the building.",
+        "image" : "images/door000011.jpg"
+    }
+];
