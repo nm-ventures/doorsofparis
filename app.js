@@ -275,6 +275,8 @@ var ViewModel = function() {
 
 };
 
+var doorMarker = 'images/door-marker.png'
+
 // Model
 var Marker = function(markerItem) {
     var self = this;
@@ -294,7 +296,8 @@ var Marker = function(markerItem) {
         },
         animation: google.maps.Animation.DROP,
         map: map,
-        title: self.image()
+        title: self.image(),
+        icon: doorMarker
     });
 
     this.contentString = ko.computed(function() {
