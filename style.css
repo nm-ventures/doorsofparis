@@ -53,6 +53,12 @@ a {
     padding-top: 1em;
 }
 
+.thumb-img {
+    width: 400px;
+    height: auto;
+    padding-top: 10px;
+}
+
 #map {
     /*height: 100%;*/
     height: calc(100% - 72px);

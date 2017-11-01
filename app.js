@@ -302,7 +302,9 @@ var Marker = function(markerItem) {
 
     this.contentString = ko.computed(function() {
         return '<div>' + self.color() + ' door</div>' +
-                '<div>' + self.location() + '</div>';
+                '<div>' + self.location() + '</div>' +
+                '<img class="thumb-img" src=' + self.image() +
+                  ' alt=' + self.color() + '>';
     });
 
     this.mapMarker.addListener('click', function() {
