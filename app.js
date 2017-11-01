@@ -225,7 +225,7 @@ var ViewModel = function() {
 
     this.closeNav = function() {
         document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft= "0";
+        document.getElementById("main").style.marginLeft = "0";
         document.body.style.backgroundColor = "white";
     };
 
@@ -301,7 +301,7 @@ var Marker = function(markerItem) {
     });
 
     this.contentString = ko.computed(function() {
-        return '<div>' + self.color() + ' Door</div>' +
+        return '<div>' + self.color() + ' door</div>' +
                 '<div>' + self.location() + '</div>';
     });
 
